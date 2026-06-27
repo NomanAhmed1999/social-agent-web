@@ -7,6 +7,9 @@ export const metadata = {
     title: "Social Agent | AI-Powered Social Media Automation",
     description: "Automate your social media posting securely using local agents and AI.",
     type: "website",
+  },
+  other: {
+    "tiktok-developers-site-verification": "GfLZayVbM4oqH8ISNW3GrRSYrpkih6Ux"
   }
 };
 
