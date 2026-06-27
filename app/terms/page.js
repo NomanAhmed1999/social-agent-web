@@ -1,6 +1,14 @@
 import Link from "next/link";
 import Image from "next/image";
 
+export const metadata = {
+  title: "Terms of Service | Social Agent",
+  description: "Terms of Service for the Social Agent application.",
+  other: {
+    "tiktok-developers-site-verification": "GfLZayVbM4oqH8ISNW3GrRSYrpkih6Ux"
+  }
+};
+
 export default function TermsOfService() {
   return (
     <div className="min-h-screen bg-black text-zinc-300 flex flex-col">
@@ -89,6 +97,13 @@ export default function TermsOfService() {
               These Terms of Service shall be governed by and construed in accordance with the laws of your local jurisdiction, without regard to conflict of law principles.
             </p>
           </section>
+
+          {/* TikTok Verification Token */}
+          <div className="border-t border-white/5 pt-6 mt-10">
+            <p className="text-[10px] text-zinc-600 tracking-tight select-all">
+              tiktok-developers-site-verification=GfLZayVbM4oqH8ISNW3GrRSYrpkih6Ux
+            </p>
+          </div>
         </article>
       </main>
 
